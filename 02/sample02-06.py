@@ -1,6 +1,6 @@
 hero_header = []
 hero_data = []
-with open('lecture02_Hero.csv') as f:
+with open('./02/lecture02_Hero.csv') as f:
     for line in f:
         if len(hero_header) == 0:
             hero_header = line.rstrip().split(",")
@@ -16,7 +16,7 @@ print(hero_data)
 import csv
 weapon_header = []
 weapon_data = []
-with open('lecture02_Weapon.csv') as f:
+with open('./02/lecture02_Weapon.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         if len(weapon_header) == 0:
