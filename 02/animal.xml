@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animal>
+  <human>
+    <person id="0"/>
+    <person id="1"/>
+    <person id="2"/>
+    <person id="3"/>
+    <person id="4"/>
+    <person id="5"/>
+    <person id="6"/>
+    <person id="7"/>
+    <person id="8"/>
+    <person id="9"/>
+  </human>
+</animal>
